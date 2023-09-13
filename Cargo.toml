@@ -1,6 +1,18 @@
 [package]
 name = "xxhash-rs"
 version = "0.1.0"
+authors = ["David James <davidcjames@gmail.com>"]
 edition = "2021"
+
+description = "Safe Rust implementation of xxHash"
+readme = "README.md"
+keywords = ["hash", "xxhash"]
+categories = ["algorithms", "hashing"]
+
+homepage = "https://github.com/xpe/xxhash-rs"
+repository = "https://github.com/xpe/xxhash-rs"
+documentation = "https://docs.rs/xxhash-rs"
+
+license = "Apache-2.0"
 
 [dependencies]
