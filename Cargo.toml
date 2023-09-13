@@ -15,4 +15,9 @@ documentation = "https://docs.rs/xxhash-rs"
 
 license = "Apache-2.0"
 
+exclude = [
+    "/extra",
+]
+
 [dependencies]
+
