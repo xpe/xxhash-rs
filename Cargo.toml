@@ -7,7 +7,7 @@ edition = "2021"
 description = "Safe Rust implementation of xxHash"
 readme = "README.md"
 keywords = ["hash", "xxhash"]
-categories = ["algorithms", "hashing"]
+categories = ["algorithms"]
 
 homepage = "https://github.com/xpe/xxhash-rs"
 repository = "https://github.com/xpe/xxhash-rs"
