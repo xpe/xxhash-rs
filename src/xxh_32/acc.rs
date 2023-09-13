@@ -14,14 +14,13 @@ pub struct Acc4 {
     pub word_4: ModU32,
 }
 
-/*
 /// Compute one _round_. This is part of _Step 2_ in the xxHash spec.
+#[allow(dead_code)]
 pub fn round(word: ModU32, lane: ModU32) -> ModU32 {
     let mut a = word + (lane * PRIME_2);
     a.rotate_left_mut(13);
     a * PRIME_1
 }
-*/
 
 /// Compute one _round_. This mutates a given accumulator word using _lane_.
 /// This is part of _Step 2_ in the xxHash spec.
